@@ -25,3 +25,7 @@ def list(songs)
     counter += 1
   end
 end
+
+def play 
+  
+end
