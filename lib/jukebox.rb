@@ -22,6 +22,7 @@ def list
   counter = 0
   songs.each do |songName|
     puts "#{counter+1}. #{songName}"
+    counter += 1
   end
 end
 end
