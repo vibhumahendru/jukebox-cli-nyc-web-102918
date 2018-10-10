@@ -26,6 +26,9 @@ def list(songs)
   end
 end
 
-def play(song)
+def play(song_array)
+ puts "Please enter a song name or number:"
+ 
+ songInput = gets.chomp
   
 end
