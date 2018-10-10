@@ -18,4 +18,7 @@ def help
 - exit : exits this program"
 end
 
-ls\
+def list
+  counter = 0
+  song.each do |songName|
+end
