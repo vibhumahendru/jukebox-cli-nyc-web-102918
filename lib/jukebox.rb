@@ -18,7 +18,7 @@ def help
 - exit : exits this program"
 end
 
-def list
+def list(songs)
   counter = 0
   songs.each do |songName|
     puts "#{counter+1}. #{songName}"
